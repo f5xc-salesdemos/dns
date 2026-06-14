@@ -6,18 +6,10 @@
 
 F5 XC DNS management
 
+
 ## Documentation
 
 Full documentation is available at **[https://f5xc-salesdemos.github.io/dns/](https://f5xc-salesdemos.github.io/dns/)**.
-
-## Getting Started
-
-```bash
-git clone https://github.com/f5xc-salesdemos/dns.git
-```
-
-See the [documentation](https://f5xc-salesdemos.github.io/dns/) for detailed setup
-and usage guides.
 
 ## Contributing
 
