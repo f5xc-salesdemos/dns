@@ -23,9 +23,7 @@
               "ttl": 300,
               "a_record": {
                 "name": "www",
-                "values": [
-                  "203.0.113.10"
-                ]
+                "values": ["203.0.113.10"]
               },
               "description": "Web server"
             },
@@ -33,9 +31,7 @@
               "ttl": 300,
               "a_record": {
                 "name": "app",
-                "values": [
-                  "203.0.113.20"
-                ]
+                "values": ["203.0.113.20"]
               },
               "description": "Application server"
             },
@@ -43,9 +39,7 @@
               "ttl": 300,
               "a_record": {
                 "name": "api",
-                "values": [
-                  "203.0.113.30"
-                ]
+                "values": ["203.0.113.30"]
               },
               "description": "API endpoint"
             },
@@ -61,10 +55,7 @@
               "ttl": 3600,
               "mx_record": {
                 "name": "",
-                "values": [
-                  "10 mail.f5-sales-demo.com",
-                  "20 mail2.f5-sales-demo.com"
-                ]
+                "values": ["10 mail.f5-sales-demo.com", "20 mail2.f5-sales-demo.com"]
               },
               "description": "Mail exchange records"
             },
@@ -72,9 +63,7 @@
               "ttl": 3600,
               "txt_record": {
                 "name": "",
-                "values": [
-                  "v=spf1 include:_spf.f5.com ~all"
-                ]
+                "values": ["v=spf1 include:_spf.f5.com ~all"]
               },
               "description": "SPF record for email authentication"
             },
@@ -82,9 +71,7 @@
               "ttl": 300,
               "txt_record": {
                 "name": "_dmarc",
-                "values": [
-                  "v=DMARC1; p=reject; rua=mailto:dmarc@f5-sales-demo.com"
-                ]
+                "values": ["v=DMARC1; p=reject; rua=mailto:dmarc@f5-sales-demo.com"]
               },
               "description": "DMARC policy"
             },
@@ -92,9 +79,7 @@
               "ttl": 300,
               "aaaa_record": {
                 "name": "www",
-                "values": [
-                  "2001:db8::10"
-                ]
+                "values": ["2001:db8::10"]
               },
               "description": "IPv6 web server"
             }
